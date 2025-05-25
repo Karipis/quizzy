@@ -9,7 +9,7 @@ import Slider from '@mui/material/Slider';
 import SettingsIcon from '@mui/icons-material/Settings';
 import { Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import { PreferencesContext } from '../App';
+import { PreferencesContext } from '../../App';
 
 function Preferences() {
   const navigate = useNavigate();

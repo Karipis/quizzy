@@ -3,7 +3,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import LinearProgress from '@mui/material/LinearProgress';
 import { Button } from '@mui/material';
-import { PreferencesContext } from '../App';
+import { PreferencesContext } from '../../App';
 
 function Quiz() {
   const [progress, setProgress] = useState(0);

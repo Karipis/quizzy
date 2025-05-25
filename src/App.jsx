@@ -1,6 +1,6 @@
 import './App.css';
-import Preferences from './Preferences/Preferences';
-import Quiz from './Quiz/Quiz'; 
+import Preferences from './Components/Preferences/Preferences';
+import Quiz from './Components/Quiz/Quiz'; 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { createContext,useState } from 'react';
 export const PreferencesContext = createContext();
