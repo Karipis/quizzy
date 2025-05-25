@@ -1,0 +1,49 @@
+#container {
+    color: black;
+    font-family: 'Funnel Sans';
+    font-weight: 100;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.85);
+    width: 30%;
+    height: 60%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+input,
+select {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    height: 50px;
+    width: 65%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+}
+
+option {
+    background-color: #f0f0f0;
+}
+
+#questions-number {
+    width: 65%;
+}
+
+#slider {
+    width: 65%;
+}
+
+
+#title {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
